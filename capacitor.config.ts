@@ -1,7 +1,7 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.nitnelav.pass.wallet',
+  appId: 'io.ionic.starter',
   appName: 'IonicPassToWallet',
   webDir: 'www',
   bundledWebRuntime: false

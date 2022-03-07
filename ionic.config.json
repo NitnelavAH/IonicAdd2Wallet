@@ -1,5 +1,7 @@
 {
   "name": "IonicPassToWallet",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
