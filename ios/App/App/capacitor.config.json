@@ -1,0 +1,6 @@
+{
+	"appId": "com.nitnelav.pass.wallet",
+	"appName": "IonicPassToWallet",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
