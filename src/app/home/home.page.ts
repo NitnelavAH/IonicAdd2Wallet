@@ -33,6 +33,25 @@ export class HomePage {
     }
   }
 
+  public async addMultipleToWallet(){
+    const loading = await this.loader.create({
+      duration: 2000,
+      message: 'Please wait'
+    });
+    await loading.present();
+    try {
+      const res = await this.walletService.downloadPkpass('pass');
+      const base64 = await this.walletService.convertBlobToBase64(res) as string;
+      const res2 = await this.walletService.downloadPkpass('pass2');
+      const base642 = await this.walletService.convertBlobToBase64(res2) as string;
+      await CapacitorPassToWallet.addMultipleToWallet({base64: [base64, base642]});
+      loading.dismiss();
+    } catch (error) {
+      console.log(error);
+      loading.dismiss();
+    }
+  }
+
 
 
 }
