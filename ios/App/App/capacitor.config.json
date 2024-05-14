@@ -2,5 +2,13 @@
 	"appId": "io.ionic.starter",
 	"appName": "IonicPassToWallet",
 	"webDir": "www",
-	"bundledWebRuntime": false
+	"bundledWebRuntime": false,
+	"packageClassList": [
+		"AppPlugin",
+		"HapticsPlugin",
+		"KeyboardPlugin",
+		"StatusBarPlugin",
+		"CapacitorPassToWalletPlugin",
+		"CapacitorPassToWalletPlugin"
+	]
 }

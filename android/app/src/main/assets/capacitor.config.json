@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "IonicPassToWallet",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
